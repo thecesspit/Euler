@@ -11,7 +11,7 @@
 // Set up
 start = System.currentTimeMillis()
 
-helper = new eulerTools()
+helper = new eulerTools(a)
 
 // Target is the sequence to add together
 // x is the resultant number we will add digits together for
