@@ -13,7 +13,7 @@ helper = new eulerTools()
 // x is our searcher, target is the thing we are trying to find (xth prime etc)
 int x = 0
 long target = 600851475143
-Boolean flag = true
+boolean flag = true
 
 // Find the factors of the target
 fList = helper.factorFinder(target)

@@ -11,7 +11,6 @@
 int total = 0
 int x = 1
 int y = 1
-int next = 0
 
 while(x < 4000000)
 {
