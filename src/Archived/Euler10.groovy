@@ -1,6 +1,3 @@
-import eulerTools.*
-
-
 /**
  * Created by IntelliJ IDEA.
  * User: Chris
