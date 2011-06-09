@@ -75,5 +75,4 @@ for(i = 0; i < 17; i++)
 
 // End
 println ("Elapsed Time = ${(System.currentTimeMillis() - start)/1000} seconds")
-
 println ("Biggest product = $target, Location = $targetList ")
