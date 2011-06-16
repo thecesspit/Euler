@@ -104,4 +104,21 @@ class eulerTools {
         (1..x).each{ result = it * result }
         return result
     }
+
+    //Returns the integer value of word (where a=1, b=2, etc)
+    int wordToInteger(String word)
+    {
+        int value = 0
+        // Take only the first part of the input string
+        word = word.stripIndent()
+        String newWord = word.split()[0].toLowerCase()
+
+        newWord.each{
+            int c = it.toCharArray()[0]
+            value = value + (c - 96)
+        }
+
+        return value
+
+    }
 }

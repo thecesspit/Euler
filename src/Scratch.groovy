@@ -13,9 +13,9 @@ start = System.currentTimeMillis()
 
 helper = new eulerTools()
 
-primeList = helper.primeSieve(10000)
+word = "skY"
 
-primeList.each{ x = it * it; if(((x-1)%24) != 0){  println "Aha $it fails"}}
+println helper.wordToInteger(word)
 
 // End
 println ("Elapsed Time = ${(System.currentTimeMillis() - start)/1000} seconds")
