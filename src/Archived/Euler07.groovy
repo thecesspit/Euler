@@ -9,6 +9,8 @@ package Archived
  * What is the 10001st prime number?
  */
 
+import tools.eulerTools
+
 // Set up
 start = System.currentTimeMillis()
 helper = new eulerTools()
@@ -20,7 +22,7 @@ int target = 10001
 //  Loop until the primeList gets big enough.
 //  Seed the prime List with 2 and 3... then skip ahead by 2 each time to avoid trying to work on the even numbers
 Boolean flag = true
-primeList = [2,3]
+primeList =  new ArrayList<Long>([2,3])
 
 while(flag)
 {

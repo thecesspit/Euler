@@ -1,3 +1,4 @@
+package Working
 
 /**
  * Date: 3/15/11
@@ -10,8 +11,6 @@
 
 // Set up
 start = System.currentTimeMillis()
-
-helper = new eulerTools()
 
 // Target is the sequence to add together
 // x is the resultant number we will add digits together for

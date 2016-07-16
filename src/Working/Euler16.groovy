@@ -1,3 +1,4 @@
+package Working
 
 /**
  * Date: 3/15/11
@@ -7,6 +8,8 @@
 
 What is the sum of the digits of the number 2^1000?
  */
+
+import tools.eulerTools
 
 // Set up
 start = System.currentTimeMillis()

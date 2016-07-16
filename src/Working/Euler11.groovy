@@ -1,3 +1,4 @@
+package Working
 
 /**
  * Created by IntelliJ IDEA.
@@ -15,7 +16,7 @@
 // Set up
 start = System.currentTimeMillis()
 
-helper = new eulerTools()
+helper = new tools.eulerTools()
 
 // Target is the largest multiplier found so far.
 // targetList is 4 numbers that make that biggest number

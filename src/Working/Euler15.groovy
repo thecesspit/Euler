@@ -1,3 +1,7 @@
+package Working
+
+import tools.eulerTools
+
 import java.lang.reflect.Array
 
 /**

@@ -1,3 +1,4 @@
+package Working
 
 /**
  * Date: 3/15/11
@@ -15,6 +16,8 @@
  */
 
 // Set up
+import tools.eulerTools
+
 start = System.currentTimeMillis()
 
 helper = new eulerTools()

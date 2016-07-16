@@ -1,4 +1,7 @@
 package Archived
+
+import tools.eulerTools
+
 /**
  * Created by IntelliJ IDEA.
  * User: Chris

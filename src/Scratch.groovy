@@ -1,3 +1,4 @@
+import tools.eulerTools
 
 /**
  * Date: 3/15/11
