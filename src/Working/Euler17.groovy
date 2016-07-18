@@ -71,29 +71,38 @@ def String intToWords(int x) {
             return(numNames[x])
         }
 
-        // Instead if intString is at least 2 digits long, lets look at the last two digits.
-        def tensAndOnes = intString[-2..-1].toInteger()
-
-        if(tensAndOnes < 20)
+        // for numbers in the 1000's
+        if(intString.length() > 3)
         {
-            finalString = finalString + numNames[tensAndOnes]
-        } else {
-            // Instead if twenty of more, use the absolute value to find the tens and ones
-            finalString = finalString + tensNames[(int) (tensAndOnes/10)]
-            finalString = finalString + numNames[(tensAndOnes)%10]
+            def thousands = intString[-4].toInteger()
+            finalString = finalString + numNames[thousands] + ' thousand'
         }
 
         if(intString.length()> 2)
         {
             def hundreds = intString[-3].toInteger()
-            finalString = numNames[hundreds] + ' hundred and' + finalString
+            if(hundreds != 0){   finalString = finalString + numNames[hundreds] + ' hundred' }
         }
 
-        if(intString.length() > 3)
-        {
-            def thousands = intString[-4].toInteger()
-            finalString = numNames[thousands] + ' thousand and' + finalString
+
+        // lets look at the last two digits.
+        def tensAndOnes = intString[-2..-1].toInteger()
+
+        if(tensAndOnes != 0) {
+
+            if (finalString){ finalString = finalString + ' and'}
+
+            if (tensAndOnes < 20) {
+                finalString = finalString + numNames[tensAndOnes]
+            } else {
+                // Instead if twenty of more, use the absolute value to find the tens and ones
+                finalString = finalString + tensNames[(int) (tensAndOnes / 10)]
+                finalString = finalString + numNames[(tensAndOnes) % 10]
+            }
         }
+
+
+
 
         return finalString
     }
@@ -108,6 +117,7 @@ int total = 1000
 
 for(def a = 1; a <= total; a++){
     def wordNumber = intToWords(a)
+    println wordNumber
     letterCount += wordNumber.findAll { it != " "}.size()
     println letterCount
 }

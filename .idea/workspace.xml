@@ -1,44 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaf4cf0b-b005-4e15-94f4-931a35a80b5c" name="Default" comment="Updated file names&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Working/Euler17.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/ant.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler12.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler14$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler14.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler16.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler20.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler21$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler21.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler25.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler48$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler48.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler5$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler5$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler8$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler8$_run_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler8.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler9$_run_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/Euler9.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools$_closure1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools$_factorFinder_closure4.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools$_factorial_closure6.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools$_primeSieve_closure2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools$_primeSieve_closure3.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools$_totalDigits_closure5.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Euler/eulerTools.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Euler/Archived/Euler01$_run_closure1.class" afterPath="$PROJECT_DIR$/out/production/Euler/Archived/Euler01$_run_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Euler/Archived/Euler01.class" afterPath="$PROJECT_DIR$/out/production/Euler/Archived/Euler01.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Euler/Euler10$_run_closure1.class" afterPath="$PROJECT_DIR$/out/production/Euler/Euler10$_run_closure1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Euler/Euler10.class" afterPath="$PROJECT_DIR$/out/production/Euler/Euler10.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+    <list default="true" id="eaf4cf0b-b005-4e15-94f4-931a35a80b5c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Euler.iml" afterPath="$PROJECT_DIR$/Euler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Working/Euler17.groovy" afterPath="$PROJECT_DIR$/src/Working/Euler17.groovy" />
     </list>
     <ignored path="Euler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,8 +74,8 @@
       <file leaf-file-name="Euler17.groovy" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Working/Euler17.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+            <state relative-caret-position="476">
+              <caret line="92" column="65" selection-start-line="92" selection-start-column="65" selection-end-line="92" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -743,7 +708,14 @@
       <option name="project" value="LOCAL" />
       <updated>1468647513534</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="euler 17 -&gt; not yet working&#10;">
+      <created>1468806662218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1468806662218</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -806,7 +778,8 @@
     <MESSAGE value="Euler 11 Added" />
     <MESSAGE value="Euler 13 and 15 solved." />
     <MESSAGE value="Updated file names&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated file names&#10;" />
+    <MESSAGE value="euler 17 -&gt; not yet working&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="euler 17 -&gt; not yet working&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1034,8 +1007,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Working/Euler17.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="108" column="19" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
+        <state relative-caret-position="476">
+          <caret line="92" column="65" selection-start-line="92" selection-start-column="65" selection-end-line="92" selection-end-column="65" />
           <folding />
         </state>
       </provider>
