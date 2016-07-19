@@ -8,7 +8,7 @@ import tools.eulerTools
  * Date: 6/8/11
  * Time: 9:20 PM
 Work out the first ten digits of the sum of the following one-hundred 50-digit numbers.
-(EulerFiles/euler12.txt)
+(Working.EulerFiles/euler12.txt)
 
  */
 
@@ -22,7 +22,7 @@ BigInteger target = 0
 List Grid = []
 
 // Populate GRID with contents of the file euler11.txt
-File file = new File("EulerFiles\\euler13.txt")
+File file = new File("Working.EulerFiles\\euler13.txt")
 file.eachLine { line -> Grid.add(line.split(" ")) }
 
 Grid.each{ target = target + it[0].toBigInteger() }

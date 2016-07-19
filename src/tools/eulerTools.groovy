@@ -120,6 +120,19 @@ class eulerTools {
         }
 
         return value
+    }
 
+    //Left pad a string with a symbol
+    String leftPad(String originalString, String padding, int length)
+    {
+        int paddingNeeded = length - originalString.length()
+        if(paddingNeeded <= 0){ return originalString }
+
+        for(int i = 1; i <= paddingNeeded; i++)
+        {
+            originalString = padding + originalString
+        }
+
+        return originalString
     }
 }

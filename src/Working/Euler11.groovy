@@ -26,7 +26,7 @@ List targetList = []
 def Grid = []
 
 // Populate GRID with contents of the file euler11.txt
-File file = new File("EulerFiles\\euler11.txt")
+File file = new File("Working.EulerFiles\\euler11.txt")
 file.eachLine { line -> Grid.add(line.split(" ")) }
 
 // First lets look at each line

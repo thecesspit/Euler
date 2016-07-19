@@ -89,26 +89,16 @@ def String intToWords(int x) {
         def tensAndOnes = intString[-2..-1].toInteger()
 
         if(tensAndOnes != 0) {
-
             if (finalString){ finalString = finalString + ' and'}
-
-            if (tensAndOnes < 20) {
-                finalString = finalString + numNames[tensAndOnes]
-            } else {
+            if (tensAndOnes < 20) { finalString = finalString + numNames[tensAndOnes]}
+            else {
                 // Instead if twenty of more, use the absolute value to find the tens and ones
                 finalString = finalString + tensNames[(int) (tensAndOnes / 10)]
                 finalString = finalString + numNames[(tensAndOnes) % 10]
             }
         }
-
-
-
-
         return finalString
     }
-
-
-
 }
 
 /* Do this for 1 - 1000, and count each string */
@@ -117,13 +107,10 @@ int total = 1000
 
 for(def a = 1; a <= total; a++){
     def wordNumber = intToWords(a)
-    println wordNumber
     letterCount += wordNumber.findAll { it != " "}.size()
-    println letterCount
 }
 
 println("Number of letters in all the numbers 1 to $total is: $letterCount")
-
 
 // End
 println ("Elapsed Time = ${(System.currentTimeMillis() - start)/1000} seconds")

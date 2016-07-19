@@ -28,7 +28,7 @@ List nameValues = []
 BigInteger total = 0
 
 // Read in the text file, stripping out the "" marks
-File file = new File("EulerFiles\\euler22.txt")
+File file = new File("Working.EulerFiles\\euler22.txt")
 file.eachLine { line ->
     line.split(",").each {
         it = it.substring(1,it.size()-1)
